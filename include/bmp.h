@@ -51,4 +51,7 @@ void write_le(uint8_t* p, uint32_t val);
 
 void test();
 
+#define RGBA(r, g, b, a) \
+  (struct rgba) { b, g, r, a }
+
 #endif

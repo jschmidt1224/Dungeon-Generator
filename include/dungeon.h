@@ -17,7 +17,7 @@ void dungeon_init(struct dungeon* d, int w, int h);
 void dungeon_clear(struct dungeon* d);
 void dungeon_print(struct dungeon* d);
 struct room;
-int dungeon_place_room(struct dungeon* d, struct room* r, int c);
+int dungeon_place_room(struct dungeon* d, struct room r, int c);
 struct simple_image* dungeon_to_im(struct dungeon* d);
 
 #endif
